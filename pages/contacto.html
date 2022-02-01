@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;1,200;1,400&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/61c29b83c7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Info Parabrisas</h1>
+        <nav>
+            <ul class="NavSuperior">
+                <li><a href="../index.html" class="verde">Inicio</a></li>
+                <li><a href="./nuevos.html" class="naranja">Nuevos Cristales</a></li>
+                <li><a href="./circulares.html" class="verde">Circulares Informativas</a></li>
+                <li><a href="./herramientas.html" class="naranja">Herramientas</a></li>
+                <li><a href="./adas.html" class="verde">ADAS</a></li>
+                <li><a href="./contacto.html" class="naranja">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+	<!-- fin del header -->
+    <h2 class=tituloPagina>Contactenos</h2>
+    <form class="Formulario1">
+        <div>
+            <label for="nombreyApellidoContacto" class="inputContacto">Nombre y Apellido</label>
+             <input class="textoContacto" type="text" placeholder="Escribir Nombre y Apellido" id="nombreyApellidoContacto" >
+        </div>
+        <div>
+            <label for="pronviciayoLocalidadContacto" class="inputContacto">Provincia y/o Localidad</label>
+             <input class="textoContacto" type="text" placeholder="Indicar su Provincia y/o Localidad" id="pronviciayoLocalidadContacto">  
+        </div>
+        <div>
+            <label for="emailContacto" class="inputContacto">Email</label>
+            <input class="textoContacto" type="email" placeholder="Escribir Email" id="emailContacto">  
+        </div> 
+        <div>
+            <label for="telefonoContacto" class="inputContacto">Teléfono</label>
+             <input class="textoContacto" type="text" placeholder="Indicar su Teléfono" id="telefonoContacto">  
+        </div> 
+        <div>
+            <label for="MarcaContacto" class="inputContacto">Selecione la Marca que Comercializa</label>
+            <select class="botonesContacto2" name="MarcaContacto" id="MarcaContacto">
+                <option value="">Elija su Marca</option>
+                <option value="Pilkington">Pilkington</option>
+                <option value="Sekurit">Sekurit</option> 
+                <option value="Favicur">Favicur</option>
+                <option value="Cristem">Cristem</option>
+                <option value="Otra">Otra</option>
+            </select>
+        </div>       
+        <div>
+            <textarea class="textoContacto" placeholder="Escribinos aca tu consulta">Hola, quisiera conocer mas sobre </textarea>
+        </div>
+        <div>
+            <input id="CheckBoxContacto" type="checkbox">
+            <label for="CheckBoxContacto">Confirmar Datos</label>
+        </div>
+            <input class="botonesContacto1" type="reset" value="Borrar Todo">
+        <input class="botonesContacto1" type="submit" value="Enviar">    
+    </form>
+    <div class="publiMalatesta"></div>
+    <footer>
+        <h3>Links del Desarrollador</h3>
+        <ul class="footer">
+            <li>
+                <a href="http://www.malatestaparabrisas.com.ar/" class="web" target="_blank">
+                    <i class="fas fa-desktop fa-2x"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://m.facebook.com/Malatesta-Parabrisas-113033720608873/" class="facebook" target="_blank">
+                  <i class="fab fa-facebook-square fa-2x"></i>
+                </a>
+            </li>
+        <li>
+            <a href="https://www.instagram.com/malatestaparabrisas/?hl=es" class="instagram" target="_blank">
+             <i class="fab fa-instagram fa-2x"></i>
+            </a>
+        </li>
+        </ul>
+    </footer>
+</body>
+</html>

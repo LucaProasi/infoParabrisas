@@ -1,0 +1,309 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    height: 0;
+    width: 100%;
+    top: 0;
+    background-color: beige;
+    color: #111;
+    text-align: center;
+    position: relative;
+   }
+nav{
+    display: inline;
+    text-align: center;
+    margin: auto 1%;
+}
+h1{
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    display: inline;
+    position: absolute;
+    left: 0;
+    margin: 0%;
+    padding: 0;
+}
+body{
+    background-color: #111;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Titillium Web', sans-serif;
+    height: 100vh;
+}
+.NavSuperior{
+    margin: 15px;
+    list-style: none;
+    font-size: 24px;
+}
+ li{
+    display: inline-block;
+ }
+#parrafoindex{
+    color:  #e63c13;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+.imagenIndex{
+   height: 100%;
+   width: 100%;
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+}
+.verde{
+    color:#128f39;
+}
+.naranja{
+    color:#e63c13;
+}   
+.span1{
+    color: #128f39;
+    font-style: oblique;
+    font-weight: 600;
+    font-size: 25px;
+} 
+a{
+    text-decoration: none;
+}
+h3{   
+    background-color: #111;
+    color:  #fff;
+    font-size:18px;
+    text-align: justify;
+    line-height: 40px;
+}
+footer{
+    background-color: #111;
+    color: #128f39;
+    font-size: 25px;
+    list-style: none;
+    position: relative;
+    bottom: 0%;
+    display: list-item;
+} 
+.tituloPagina{
+    color: white;
+    margin-top: 70px;
+    font-size: 28px;
+    text-align: left;
+}
+table{
+    color: #fff;
+    margin-top: 50px;
+    border-style: none;
+    border-color: #fff;
+    text-align: center;
+    padding: 1%;
+}
+.sectionCirculares{
+    color: #128f39;
+    font-size: 15px;
+}
+.subTituloPagina3{
+    color: white;
+    font-size: 25px;
+}
+a{
+color: #128f39;
+}
+.Herramienta1{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+.Video1{
+    position: relative;
+    left: 0%;
+    display: block;
+}
+.Video2{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.inputContacto{
+    color:#fff;
+}
+.Formulario1{
+    background-image: linear-gradient(to top,#128f39,#128f3a31 );
+    color:  #fff;
+    font-size: 12px;
+    line-height: 10px;
+    border: 2px solid  #e63c13;  
+    margin: 3%;
+}
+.botonesContacto1{ 
+    background: #e63c13; 
+    padding: 2px; 
+    margin: 5px;
+    color: #fff;
+    border-style: groove;
+    border-color: black;
+    border-width: 1px;
+}
+.botonesContacto2{ 
+    background: #e63c13; 
+    padding: 2px; 
+    margin: 5px;
+    color: #fff;
+    border-style: groove;
+    border-color: black;
+    border-width: 1px;
+}
+.textoContacto{
+    background-color: #e63c13;
+    color: #fff;
+    margin: 1px;
+}
+.galeriaAutoNuevo{
+    display: flex;
+    overflow-x: scroll;
+    margin: 2%;
+    transition: all 1s;
+}
+.imagenAutoNuevo{
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+}
+.nuevosVehiculos{
+    color: #128f39;
+    font-size: 35px;
+}
+.galeriaAutoNuevo::-webkit-scrollbar {
+    width: 12px;            
+  }
+  .galeriaAutoNuevo::-webkit-scrollbar-track {
+    background-color: #128f39;
+    border-radius: 6px;      
+  }
+  .galeriaAutoNuevo::-webkit-scrollbar-thumb {
+    background-color: #e63c13;    
+    border-radius: 20px;       
+    border: 3px solid #128f39; 
+  }
+.carrusel{
+    display: flex;
+    align-items: center;
+}
+.carrusel a{
+    font-size: 40px;
+    margin: 12px;
+}
+.facebook:hover{
+    color: #3b5998;
+}
+.web:hover{
+    color: #e63c13;
+}
+.instagram:hover{
+    color: #833AB4;
+}
+.gridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 350px 350px;
+   gap: 1%;
+}
+.imagenHerramienta{
+    height: 300px;
+    width: 450px;
+}
+.imagenHerramienta:hover{
+    filter: grayscale(100%);
+    z-index: 10;
+}
+.uno{
+    grid-column: 1/5;
+    grid-row: 1/2;
+}
+.dos{
+    background-color: white;
+}
+.tres{
+    background-color: white;
+}
+.cuatro{
+    background-color: white;
+}
+.cinco{
+    background-color: white;
+}
+.seis{
+    background-color: white;
+}
+.siete{
+    background-color: white;
+}
+.ocho{
+    background-color: white;
+}
+.nueve{
+    background-color: white;
+}
+.galeriaAutoNuevo:hover{
+    transform: scale(1.1,1.1);
+    z-index: 1000;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+/* VISTA CELULAR */
+@media only screen and (max-widht:599px){
+    .gridContainer{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;  
+    }
+    nav{
+        display: list-item;
+        text-align: center;
+        margin: auto 1%;
+    }
+}
+/* VISTA TABLET */
+@media only screen and (max-widht:999px){
+    .gridContainer{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+    nav{
+        display: list-item;
+        text-align: center;
+        margin: auto 1%;
+    }
+}
+.publiMalatesta{
+    width: 800px;
+    height: 800px;
+    border: solid 1px #128f39;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: cambioPsas;
+    animation-iteration-count: infinite;
+    animation-timing-function: step-end;
+}
+.publiMalatesta:hover{
+    animation: cambioPsas 20s 0.5s;
+}
+@keyframes cambioPsas{
+    10%{
+        background-image: url(./imagenes/logo01.png);
+    }
+    25%{
+        background-image: url(./imagenes/animacion/parabrisas-roto.jpg);
+    }
+    50%{
+        background-image: url(./imagenes/animacion/autosinparabrisas.jpg);
+    }
+    75%{
+        background-image: url(./imagenes/animacion/Carglass--620x349.jpg);
+    }
+    100%{
+        background-image: url(./imagenes/animacion/parabrisas-1800x728.jpg);
+    }
+    }
